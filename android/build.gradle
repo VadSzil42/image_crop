@@ -28,6 +28,7 @@ android {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    namespace 'io.github.vadszil42.imagecrop'
     lintOptions {
         disable 'InvalidPackage'
     }
